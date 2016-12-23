@@ -1,0 +1,47 @@
+﻿<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="home.css">
+	</head>
+	<body  link="white" vlink="yellow" alink="black">
+		<div id="header">
+			<div id"title">
+				Кръгът "Мисъл"
+			</div>
+			<div>
+				<button id="spis">Списанието</button>
+				<button id="avt">Автори</button>
+				<button id="his">История</button>
+				<button id="menu" onmouseover='showMenu()'>Съдържание</button>
+			</div>
+			<div id="drop" bgcolor="navy">
+
+				<button id="spis1">Списанието</button>
+				<button id="avt1">Автори</button>
+				<button id="his1">История</button>
+			</div>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+		<script type="text/javascript">
+			var menu = document.getElementById('menu');
+			var drop = document.getElementById('drop');
+			var spis1 = document.getElementById('spis1');
+			var avt1 = document.getElementById('avt1');
+			var his1 = document.getElementById('his1');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onmouseover = function(event) {
+    		if (event.target == menu || event.target == spis1 || event.target == avt1 || event.target == his1) {
+       			drop.style.display = "block";
+    		}else drop.style.display = "none";
+		}
+			// function showMenu()
+			// {
+				
+			// 	menu.style.display = "block";
+			// }
+		</script>
+	</body>
+</html>

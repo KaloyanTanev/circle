@@ -1,0 +1,88 @@
+﻿body{
+	background: linear-gradient(to bottom, #eaeab4, #f5f5dc);
+}
+
+#header{
+	color: #900020;
+	position: fixed;
+	top: 0;
+	background: linear-gradient(to top, rgba(234, 234, 180, .5)/*#eaeab4*/, #f5f5dc);
+	height: 8%;
+	left: 0;
+	width: 100%;
+	min-height: 45px;
+	font-family: Lucida Bright, Copperplate, Charcoal, serif;
+	font-size: 225%;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: black;
+}
+
+button{
+	color: #900020;
+	top: 0;
+	min-height: 45px;
+	height: 8%;
+	border: none;
+	width: 9%;
+	min-width: 100px;
+	position: fixed;
+	background-color: rgba(159, 29, 53, 0);
+	transition: background-color .4s, color .4s;
+}
+
+button:hover{
+	background-color: rgba(159, 29, 53, 1);
+	color: white;
+}
+
+#spis{
+	left: 70%;
+}
+
+#avt{
+	left: 79%;
+}
+
+#his{
+	left: 88%;
+}
+
+#title{
+	width: 20%;
+}
+
+#menu{
+	display: none;
+	right: 0;
+}
+
+
+@media only screen and (max-width: 700px) {
+    #menu {
+        display: initial;
+    }
+
+    #spis,#avt,#his{display: none;}
+}
+
+#drop{
+	display: none;
+	position: fixed;
+	z-index: 1;
+}
+
+#spis1{
+	top:50px;
+	right: 0;
+}
+
+#avt1{
+	top:95px;
+	right: 0px;
+}
+
+#his1{
+	top:140px;
+	right: 0px;
+}
