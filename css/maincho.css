@@ -1,0 +1,177 @@
+/*reset na stranicata za normalizirane na nastroikite na browsera*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+body, html {
+    font-size: 1vw;
+}
+/*zadavane na nepodvijen fon na stranicata*/
+body
+{
+    background-image: url(../img/Krag-Misal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+/*    overflow: hidden;*/
+}
+
+/*nepodvijna navigacionna lenta*/
+#navbar
+{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(250, 234, 214);
+    box-shadow: 0 20px 30px #000;
+}
+/*zadavane na stila na butonite*/
+.button
+{
+    float: right;   
+    background-color: #faebd7;
+    margin: 0 0.5%;
+    padding: 1.32% 4%;
+    border-bottom: solid #5f021f;
+    transition: background-color 0.5s;
+}
+
+.button:hover
+{
+    background-color: rgba(255,255,255,0.7);
+}
+/*obosobqvane na osnovnoto pole s informaciq*/
+.content
+{
+    float:left;
+    width: 100%;
+    margin-top: 700;
+}
+/*razlichni lenti za zadavane na razlichni cvetove na sekciite*/
+#field1
+{
+    background-color: rgba(255,255,255,0.9);
+    width: 100%;
+    float: left;
+}
+
+#field2
+{
+    background-color: rgba(255,150,150,0.8);
+    width: 100%;
+    float: left;
+    margin-top:20%;
+}
+
+#field3
+{
+    background-color: rgba(150,255,150,0.8);
+    width: 100%;
+    float: left;
+}
+
+#field4
+{
+    background-color: rgba(150,150,255,0.8);
+    width: 100%;
+    float: left;
+}
+
+#field5
+{
+    background-color: rgba(200,200,100,0.8);
+    width: 100%;
+    float: left;
+}
+/*podravnqvane na teksta i izobrajeniqta nalqvo i nadqsno*/
+.text
+{
+    width:65%;
+    float:left;
+}
+
+.textr
+{
+    width:65%;
+    float:right;
+}
+
+.imagel
+{
+    width:30%;
+    float:left;
+}
+
+.imager
+{
+    width:30%;
+    float:right;
+}
+
+
+#n1
+{
+    width: 70%;
+    margin: 0 15% 2%;
+    float:left;
+    text-align: justify;
+    font-size: 2.5rem;
+    z-index: 10;
+}
+
+.n2
+{
+    width: 70%;
+    margin: 0 15% 0;
+    float:left;
+    text-align: justify;
+    font-size: 2.5rem;
+    z-index: 10;
+}
+
+.link
+{
+    padding-top: 50px;
+    margin-top: -50px;
+}
