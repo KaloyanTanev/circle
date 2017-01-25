@@ -63,10 +63,13 @@ body, html {
 {
     float: right;   
     background-color: #faebd7;
-    margin: 0 0.5%;
-    padding: 1.32% 4%;
+    margin: 0 1%;
+    padding: 0.7% 2%;
     border-bottom: solid #5f021f;
     transition: background-color 0.5s;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 150%;
+    color: #5f021f;
 }
 
 .button:hover
@@ -104,4 +107,11 @@ body{
     margin: 1.5%;
     position: relative;
     float:left;
+}
+#title{
+    margin: 0.2% 3%;
+    float:left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 250%;
+    color: #5f021f;
 }
